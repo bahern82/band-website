@@ -1,0 +1,10 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+}
+.bottom-header{
+    background-image: url("/assets/images/monkees.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
