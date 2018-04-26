@@ -13,9 +13,10 @@ body{
  
 }
 #big-logo{
-    width:35%;
     height:35%;
-      
-     
-    
+    width:35%; /* bootstrap 4 w-35 h-35 didn't work form me */
 }
+
+
+
+    
