@@ -13,15 +13,29 @@ body{
  
 }
 #big-logo{
+    /* bootstrap 4 w-35 h-35 didn't work for me */
     height:35%;
-    width:35%; /* bootstrap 4 w-35 h-35 didn't work for me */
+    width:35%; 
+    opacity: 0.0;
+    animation-name:logo-transparency;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 0s;
 }
 
-#outer-div{
-   
-   background-color: blue;
- 
+
+@keyframes logo-transparency
+{
+    from{
+        opacity: 0.0;
+    }
+    to{
+        opacity: 1.0;
+    }
 }
+
 
 
 
