@@ -17,6 +17,14 @@ body{
     width:35%; /* bootstrap 4 w-35 h-35 didn't work for me */
 }
 
+#outer-div{
+   
+   background-color: blue;
+ 
+}
+
+
+
 
 
     
