@@ -2,6 +2,9 @@ body{
     font-family: 'Libre Baskerville', serif;
     
 }
+
+
+
 .bottom-header{ /*big band image*/
    /* background-image: url("/assets/images/monkees.jpg");*/
   background: url(/assets/images/band-background.jpg) no-repeat center center fixed; 
@@ -17,23 +20,34 @@ body{
     height:35%;
     width:35%; 
     opacity: 0.0;
-    animation-name:logo-transparency;
-    animation-timing-function: ease-in;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    animation-delay: 0s;
+   
+    -webkit-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
+    -moz-animation: logo-transparency 2s ease-in 0s 1 normal forwards running;    
+    -o-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
+     animation: logo-transparency 2s ease-in 0s 1 normal forwards running;  /* name duration timing-function delay iteration-count direction fill-mode play-state*/
+}
+@-webkit-keyframes logo-transparency
+{
+    0%{ opacity: 0.0; }
+    100%{opacity: 1.0;}
 }
 
+@-moz-keyframes logo-transparency
+{
+    0%{ opacity: 0.0; }
+    100%{opacity: 1.0;}
+}
+
+@-o-keyframes logo-transparency
+{
+    0%{ opacity: 0.0; }
+    100%{opacity: 1.0;}
+}
 
 @keyframes logo-transparency
 {
-    from{
-        opacity: 0.0;
-    }
-    to{
-        opacity: 1.0;
-    }
+    0%{ opacity: 0.0; }
+    100%{opacity: 1.0;}
 }
 
 
