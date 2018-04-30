@@ -1,16 +1,9 @@
 body{
     font-family: 'Libre Baskerville', serif;
-    
 }
 body .container{
     background-color: #fff;
 }
-h1,h2,h3,h4,header p{
-     text-transform: capitalize;
-}
-
-
-
 
 .bottom-header{ /*big band image*/
    /* background-image: url("/assets/images/monkees.jpg");*/
@@ -22,7 +15,7 @@ h1,h2,h3,h4,header p{
   height:40vh; /*viewport height %*/
  
 }
-#big-logo{
+#big-logo{ /*band logo on top of header background image*/
     /* bootstrap 4 w-35 h-35 didn't work for me */
     height:35%;
     width:35%; 
@@ -33,6 +26,86 @@ h1,h2,h3,h4,header p{
     -o-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
      animation: logo-transparency 2s ease-in 0s 1 normal forwards running;  /* name duration timing-function delay iteration-count direction fill-mode play-state*/
 }
+main{
+    margin-top:10px;
+}
+h1,h2,h3,h4,header p{
+     text-transform: capitalize;
+}
+h1{
+    text-decoration:underline; 
+}
+.top-section header{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+blockquote{
+    margin-top:2.5rem;
+    font-style: italic;
+}
+.audio-section{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    text-align: center;
+}
+section table{
+    margin-top:2rem;
+}
+
+
+/*-----------------------------------------------about page------------------------------------------------------------*/
+.top-section.about-section img { /*about page images */
+    border-radius: 25px;
+    
+}
+
+
+/*-----------------------------------------------media queries---------------------------------------------------------*/
+/*// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... } */
+
+
+
+@media (min-width:992px) /*large devices*/
+{
+.top-section{
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    
+}
+
+section>section,section>article{
+    margin-top:4rem;
+    margin-bottom:4rem;
+    
+}
+section>section>header,section>article>header{
+    margin-top:3rem;
+    margin-bottom:3rem;
+     text-align: left;
+    
+}
+
+ 
+}
+@media (min-width:1200px) /*large devices*/
+{
+    .container /* not given enough content to need extra space */
+    {
+     max-width:1200px;       
+    }
+
+}
+
+/*-----------------------------------------------animation keyframes---------------------------------------------------*/
+
+/*#big-logo band logo on top of header background image*/
 @-webkit-keyframes logo-transparency
 {
     0%{ opacity: 0.0; }

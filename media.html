@@ -15,60 +15,62 @@
 
 <body>
     <div class="container">
-        <!-- contain page-->
-        <!--top header -->
-        <!-- social container-->
-        <div class="d-flex flex-row-reverse ">
-            <!-- social-->
-            <div><a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></div>
-            <div class="mr-2"><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a></div>
-            <div class="mr-2"><a href="https://www.youtube.com/watch?v=wB9YIsKIEbA&list=RDEM86pLP22WGiM7Nr30GTZH3w" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></div>
+         <div id="header-container">
+             
+             <!--top header -->
+             <!-- social container-->
+             <div class="d-flex flex-row-reverse ">
+                 <!-- social-->
+                 <div><a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></div>
+                 <div class="mr-2"><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a></div>
+                 <div class="mr-2"><a href="https://www.youtube.com/watch?v=wB9YIsKIEbA&list=RDEM86pLP22WGiM7Nr30GTZH3w" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></div>
+             </div>
+             <!--end social container-->
+             <nav class="navbar navbar-expand-md bg-light navbar-light">
+                 <!-- Brand -->
+                 <a class="navbar-brand active" href="index.html"><img src="assets/images/monkey-logo.jpg" alt=""/></a>
+                 <!-- Toggler/collapsibe Button -->
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                 <span class="navbar-toggler-icon"></span>
+                               </button>
+         
+                 <!-- Navbar links -->
+                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                     <ul class="navbar-nav">
+                         <li class="nav-item">
+                             <a class="nav-link active" href="index.html"><i class="fas fa-home fa-lg"></i> Home</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="media.html"><i class="fas fa-music fa-lg"></i> Media</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="gigs.html"><i class="fas fa-calendar-alt fa-lg"></i> Gigs</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="about.html"><i class="fas fa-info fa-lg"></i> About</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="contact-us.html"><i class="fas fa-envelope fa-lg"></i> Contact Us</a>
+                         </li>
+                     </ul>
+                 </div>
+             </nav>
+         
+             <!-- end top header-->
+             <div class="bottom-header">
+                 <!--bottom header, band pic bg -->
+                 <div class="d-flex h-100">
+                     <img id="big-logo" class="d-flex justify-content-center align-self-center mx-auto" src="assets/images/big-logo.png" alt="monkeys guitar logo" />
+                 </div>
+             </div>
+             <div class="alert alert-primary mb-1 pt-1 pb-1 small text-center" role="alert">
+                 The Monkees are available for parties <a href="contact-us.html"><span class="badge badge-pill badge-danger">BOOK NOW </span></a>
+             </div>
         </div>
-        <!--end social container-->
-        <nav class="navbar navbar-expand-md bg-light navbar-light">
-            <!-- Brand -->
-            <a class="navbar-brand active" href="index.html"><img src="assets/images/monkey-logo.jpg" alt=""/></a>
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="media.html">Media</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gigs.html">Gigs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- end top header-->
-        <div class="bottom-header">
-            <!--bottom header, band pic bg -->
-            <div class="d-flex h-100">
-                <img id="big-logo" class="d-flex justify-content-center align-self-center mx-auto" src="assets/images/big-logo.png" alt="monkeys guitar logo" />
-            </div>
-        </div>
-        <div class="alert alert-primary" role="alert">
-            The Monkees are available for parties <a href="contact-us.html"><span class="badge badge-pill badge-danger">BOOK NOW </span></a>
-        </div>
-        <main>
-            <section>
+        <main><!----------------------------------------main------------------------------->
+            <section class="top-section">
                 <header>
-                    <h1 class="text-center"> New album - "The Monkees Greatest Hits"</h2>
+                    <h1 class="text-center"> New album - "The Monkees Greatest Hits"</h1>
                     <p class="text-center"> Preview our new album, release date 2018-05-11</p>
                 </header>
                 <div class="row">
@@ -101,7 +103,7 @@
                         </div>
                         
                         <div class="col-sm-4 d-flex flex-row justify-content-center">
-                            <div class=" w-100  row align-items-center">
+                            <div class=" w-100  row class="audio-section>
                                 <audio controls controlsList="nodownload">
                                       <source src="assets/audio/Clarksville.mp3" type="audio/mpeg" preload="none">
                                         Your browser does not support the audio element.
@@ -135,7 +137,7 @@
             </section><!-- end 1st album section------------------------------------------------------------------------->
             <hr/>
 
-            <section>
+            <section class="top-section">
                 <!-- second album section------------------------------------------------------------------------->
                 <header>
                     <h1 class="text-center"> New album - "The Very Best Of The Monkeys "</h1>
@@ -224,38 +226,38 @@
         </main>
 
         <footer class="row bg-light mt-5  pt-3 pb-3 d-flex flex-row justify-content-between">
-
+    
             <div class="col-xs-12 col-sm-3 align-self-center text-center">
                 <!-- justifies for xs-->
-
+    
                 <a class="ml-2" href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
                 <a class="ml-2" href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>
                 <a class="ml-2" href="https://www.youtube.com/watch?v=wB9YIsKIEbA&list=RDEM86pLP22WGiM7Nr30GTZH3w" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
-
+    
             </div>
-
+    
             <div class="   col-xs-12 col-sm-6 small ">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html"><i class="fas fa-home "></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="media.html">Media</a>
+                        <a class="nav-link" href="media.html"><i class="fas fa-music"></i> Media</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gigs.html">Gigs</a>
+                        <a class="nav-link" href="gigs.html"><i class="fas fa-calendar-alt"></i > Gigs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact</a>
+                        <a class="nav-link" href="contact-us.html"><i class="fas fa-envelope"></i> Contact</a>
                     </li>
                 </ul>
             </div>
-
+    
             <div class="col-xs-12 col-sm-3  small align-self-center text-center">&copy; Monkees Inc</div>
-
+    
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
