@@ -1,12 +1,12 @@
 body{
     font-family: 'Libre Baskerville', serif;
-}
-body .container{
     background-color: #fff;
+    
 }
 
+
 .bottom-header{ /*big band image*/
-   /* background-image: url("/assets/images/monkees.jpg");*/
+   
   background: url(/assets/images/band-background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
