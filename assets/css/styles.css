@@ -50,12 +50,21 @@ blockquote{
     margin-top:2.5rem;
     font-style: italic;
 }
+
+section table{
+    margin-top:2rem;
+    
+}
+.nav-link{ /*footer*/
+    padding:.5rem .4rem;
+}
+/*-----------------------------------------------index page------------------------------------------------------------*/
 .preview-audio
 {
     margin-bottom:2rem;
    
 }
-.audio-section{
+.audio-section{ /*index.html */
     margin-top:3rem;
     margin-bottom:3rem;
     text-align: center;
@@ -63,21 +72,13 @@ blockquote{
 .see-more{/* index.html "for more song previews click here" + see more dates click here */
     margin:3rem;
 }
-section table{
-    margin-top:2rem;
-    
-}
-.nav-link{
-    padding:.5rem .4rem;
-}
-
-
 
 /*-----------------------------------------------about page------------------------------------------------------------*/
 .top-section.about-section img { /*about page images */
     border-radius: 25px;
-    
+    margin-bottom: 2rem;
 }
+
 
 
 /*-----------------------------------------------media queries---------------------------------------------------------*/
@@ -88,7 +89,10 @@ section table{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... } */
-
+@media(min-width:768px)
+{
+    
+}
 
 
 @media (min-width:992px) /*large devices*/
@@ -119,6 +123,11 @@ section>section>header,section>article>header{
     {
      max-width:1200px;       
     }
+    #big-logo{ /* got too big on large screens*/
+        height:75%;
+        width:75%;
+    }
+    
 
 }
 
