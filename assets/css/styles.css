@@ -7,19 +7,25 @@ body{
 
 .bottom-header{ /*big band image*/
    
-  background: url(/assets/images/band-background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:40vh; /*viewport height %*/
- 
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 40vh;
 }
+.centered-header { /*taken from w3schools */ 
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
 #big-logo{ /*band logo on top of header background image*/
     /* bootstrap 4 w-35 h-35 didn't work for me */
-    height:35%;
-    width:35%; 
+   
+    height:100%;
+    width:100%; 
     opacity: 0.0;
+   
    
     -webkit-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
     -moz-animation: logo-transparency 2s ease-in 0s 1 normal forwards running;    
@@ -44,14 +50,27 @@ blockquote{
     margin-top:2.5rem;
     font-style: italic;
 }
+.preview-audio
+{
+    margin-bottom:2rem;
+   
+}
 .audio-section{
     margin-top:3rem;
     margin-bottom:3rem;
     text-align: center;
 }
+.see-more{/* index.html "for more song previews click here" + see more dates click here */
+    margin:3rem;
+}
 section table{
     margin-top:2rem;
+    
 }
+.nav-link{
+    padding:.5rem .4rem;
+}
+
 
 
 /*-----------------------------------------------about page------------------------------------------------------------*/
