@@ -6,7 +6,7 @@ body{
 .outer-sidebar-container{
     
 background: #cc2216 url("/assets/images/sidebar-pic.png") repeat-y ; 
-   
+  
 }
 /*.sidebar-container-img{
     margin-top:333px;
@@ -47,9 +47,7 @@ background: #cc2216 url("/assets/images/sidebar-pic.png") repeat-y ;
     -o-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
      animation: logo-transparency 2s ease-in 0s 1 normal forwards running;  /* name duration timing-function delay iteration-count direction fill-mode play-state*/
 }
-main{
-    margin-top:10px;
-}
+
 h1,h2,h3,h4,header p{
      text-transform: capitalize;
 }
@@ -74,10 +72,28 @@ section table{
     padding:.5rem .4rem;
 }
 /*-----------------------------------------------index page------------------------------------------------------------*/
-.preview-audio
+main section.acclaim-section {
+    background-color:#99c2ff;
+    
+}
+
+.preview-audio-section{
+   background: url(/assets/images/music-notes.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+}
+.preview-audio /*sub section */
 {
     margin-bottom:2rem;
-   
+    
+}
+
+main section.preview-audio-section header, main section.preview-audio-section header p {
+    color:#edead6;
+    text-shadow: 0px 0px 10px #000000;
 }
 .audio-section{ /*index.html */
     margin-top:3rem;
@@ -87,11 +103,27 @@ section table{
 .see-more{/* index.html "for more song previews click here" + see more dates click here */
     margin:3rem;
 }
-
+/*table style in gigs section*/
 /*-----------------------------------------------about page------------------------------------------------------------*/
 .top-section.about-section img { /*about page images */
     border-radius: 25px;
     margin-bottom: 2rem;
+}
+
+/*-----------------------------------------------gigs page------------------------------------------------------------*/
+.main-gigs{
+   
+  background: url(/assets/images/live-gig.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th { /*Got from stackoverflow.com  */
+  background-color: #FCE694;
+}
+ section header.mb-5 h1.tour-header.text-center{
+    color:white;
 }
 
 
