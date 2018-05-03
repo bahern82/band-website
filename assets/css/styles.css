@@ -5,7 +5,7 @@ body{
 }
 .outer-sidebar-container{
     
-background: #cc2216 url("/assets/images/sidebar-pic.png") repeat-y ; 
+background: #cc2216 url("/assets/images/tran-monkees-sidebar.png") repeat-y ; 
   
 }
 /*.sidebar-container-img{
@@ -116,6 +116,7 @@ section.top-section.media-section
   position:relative;
   
   font-weight:600;
+  text-shadow: -1px 0 #e8e8e8, 0 1px #e8e8e8, 1px 0 #e8e8e8, 0 -1px #e8e8e8;
 }
 
 
