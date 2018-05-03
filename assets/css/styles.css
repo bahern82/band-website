@@ -91,6 +91,9 @@ ul.navbar-nav li.nav-item a.nav-link.active{
     -o-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
      animation: logo-transparency 2s ease-in 0s 1 normal forwards running;  /* name duration timing-function delay iteration-count direction fill-mode play-state*/
 }
+div.alert.alert-primary{
+    margin-bottom: 0px;
+}
 
 h1,h2,h3,h4,header p{
      text-transform: capitalize;
@@ -219,35 +222,33 @@ section.top-section.media-section
 
 @media (min-width:992px) /*large devices*/
 {
-.top-section{
-    margin-top: 2rem;
-    margin-bottom:2rem;
-    
-}
 
-section>section,section>article{
-    margin-top:4rem;
-    margin-bottom:4rem;
-    
-}
-section>section>header,section>article>header{
-    margin-top:3rem;
-    margin-bottom:3rem;
-     text-align: left;
+
     
 }
 
  
-}
+
 @media (min-width:1200px) /*large devices*/
 {
-    .container /* not given enough content to need extra space */
-    {
-     max-width:1200px;       
-    }
+    
     #big-logo{ /* got too big on large screens*/
         height:75%;
         width:75%;
+    }
+    div.container-fluid div.row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    div.container-fluid div.row div.container.col-xl-8 
+    {
+        padding-left: 0px;
+        padding-right:0px;
+        
+    }
+    footer.row{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
 
