@@ -91,7 +91,7 @@ main section.acclaim-section {
     
 }
 
-main section.preview-audio-section header, main section.preview-audio-section header p {
+main section.preview-audio-section header, main section.preview-audio-section header p{
     color:#edead6;
     text-shadow: 0px 0px 10px #000000;
 }
@@ -104,6 +104,21 @@ main section.preview-audio-section header, main section.preview-audio-section he
     margin:3rem;
 }
 /*table style in gigs section*/
+
+/*-----------------------------------------------media page------------------------------------------------------------*/
+section.top-section.media-section
+{
+  background: url(/assets/images/guitar-background-alt.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  position:relative;
+  
+  font-weight:600;
+}
+
+
 /*-----------------------------------------------about page------------------------------------------------------------*/
 .top-section.about-section img { /*about page images */
     border-radius: 25px;
