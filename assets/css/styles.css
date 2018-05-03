@@ -126,6 +126,17 @@ section.top-section.media-section
     margin-bottom: 2rem;
 }
 
+#band-members-section{
+    background: url(/assets/images/60s-smaller.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  position:relative;
+  
+  font-weight:700;
+}
+
 /*-----------------------------------------------gigs page------------------------------------------------------------*/
 .main-gigs{
    
