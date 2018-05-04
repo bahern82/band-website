@@ -85,11 +85,11 @@ ul.navbar-nav li.nav-item a.nav-link.active{
     width:100%; 
     opacity: 0.0;
    
-   
-    -webkit-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
-    -moz-animation: logo-transparency 2s ease-in 0s 1 normal forwards running;    
-    -o-animation: logo-transparency 2s ease-in 0s 1 normal forwards running; 
-     animation: logo-transparency 2s ease-in 0s 1 normal forwards running;  /* name duration timing-function delay iteration-count direction fill-mode play-state*/
+   /* logo-transparency 2s ease-in 0s 1 normal forwards running; */
+    -webkit-animation: logo-transparency 2s ease-in  1; 
+    -moz-animation: logo-transparency 2s ease-in  1;    
+    -o-animation: logo-transparency 2s ease-in 1; 
+     animation: logo-transparency 2s ease-in  1 ;  /* name duration timing-function delay iteration-count direction fill-mode play-state*/
 }
 div.alert.alert-primary{
     margin-bottom: 0px;
