@@ -12,7 +12,7 @@ This is a solely a **front end project**.
 
 ## Technologies used
 
-This website has been created using HTML,CSS and Bootstrap. Fontawesome icons and Google Fonts have also been used.
+This website has been created using HTML,CSS and Bootstrap 4. Fontawesome icons and Google Fonts have also been used.
 
 ## Functionality/Design
 
@@ -21,14 +21,14 @@ This website has been created using HTML,CSS and Bootstrap. Fontawesome icons an
 The layout contains 3 container divs - 2 of which are fluid, the third is a central fixed sized container which contains the main page content. The two fluid sidebar containers are hidden on all media sizes except extra large(1200pxs or more). When visible they display a red background and a Monkees logo at roughly half page intervals.
 The mobile layout is a single column. On medium sized devices(min-width: 768px) the layout varies. On the Index page the first row has three columns, the second and third rows have two columns and the fourth row has a single column. The variation on the index page keeps the viewer visually interested.
 
-The Media, About and Contact-Us pages use a two thirds, one third approach to rows.This consistency is used to display information of the same type e.g. album information, track information, band member information in a uniform manner.
+The Media, About and Contact-Us pages use a two thirds, one third approach to rows.This consistency is used to display information of the same type -album information, track information and band member information in a uniform manner.
 
 Flexbox has been used to align items horizontally and vertically where required on all pages.
 
 ### The Header
 Fontawesome icons were used to display visually appealing social media links
-A Bootstrap navbar was used for the navigation menu. It's appearance was changed to make the page less generic. When hovered over a transition is used to change the links color to black in a visually appealing fashion.
-When the page loads the Monkeys Logo fades in over the main band picture, an animation targeting opacity was used to generate this effect.
+A Bootstrap navbar was used for the navigation menu. It's appearance was changed to make the page less generic. When hovered over a transition is used to change the links color to black in a more subtle manner.
+When the page loads the yellow Monkeys Logo fades in over the main band picture. An animation targeting opacity was used to generate this effect.
 A Bootstrap alert and pill were used to highlight the bands availability for parties
 
 ### Index page
@@ -52,15 +52,17 @@ The image corners were rounded to look more warm and less blunt.A 60s color sche
 ### Contact Us 
 
 A form has been provided to allow viewers to contact the band in regards to booking parties and concerts.
-The form uses labels to aid visually impaired users. All form elements have been igven the required attribute which means the form can not be submitted in an incomplete state. 
+The form uses labels to aid visually impaired users. All form elements have been given the required attribute which means the form can not be submitted in an incomplete state. 
 
 ## Testing
+
+For testing purposes Cloud9's run mode was used to host the website
 
 An Agile approach has been taken to developing this web application. Each sprint has been geared towards developing and testing a new part of functionality or design.
 Whenever a new feature was added it was tested comprehensively in Google Chrome development tools. It was tested in terms of appearance and functionality on mobiles,tablets and laptop devices. As an extra precaution all links,functionality and layouts have been checked post development in Google Chrome.
 No issues in Google Chrome browser.
 
-All webpages have been validated using https://validator.w3.org
+All webpages have been HTML5 validated using https://validator.w3.org . The non Bootstrap CSS file was validated - warnings were shown for browser prefixes but this is perfectly normal and acceptable.
 
 
 ### Cross browser compatibility testing
@@ -68,7 +70,7 @@ All webpages have been validated using https://validator.w3.org
 Browser prefixes were used for translations and animations to aid cross browser compatibility.
 
 #### Firefox
-Web developer reponsive design mode was used for testing on the Firefox browser.All the standard devices were tested in portrait and landscape mode using the viewport rotate feature.
+Firefox Web developer reponsive design mode was used for testing on the Firefox browser.All the standard devices were tested in portrait and landscape mode using the viewport rotate feature.
 
 The following issues were detected:
 
@@ -89,10 +91,10 @@ The following issues were detected:
 
 | Device             | Issue                                                         | Level of issue | Action            |
 | :----------------: |:-------------------------------------------------------------:| :--------------------------:|
-| Various            | In resolutions - 800x480 and 1024x788 - navbar hover transition doesn't work    | Non-critical ignore         |
+| Various            | In resolutions - 800x480 and 1024x788 - navbar hover color transition doesn't work    | Non-critical ignore         |
 
 The above issues may be due to emulation, they do not affect use and do not affect visuals.Hover effect is missing but website still looks good.
-These resolutions are not the default resolutions for the tested devices and it is unlikely they will be used.
+These resolutions are not the default resolutions for the tested devices and are unlikely they will be used.
 Decision ignore.
 
 #### Opera
@@ -102,5 +104,6 @@ Testing was carried out using all the device presets available. No issues were d
 
 #### Safari
 
-The website was not tested in Safari due to the lack of access to an Apple device.
+Edge's developer tool's Safari emulation feature was used for testing.No issues were detected.The website was not tested in Safari due to the lack of access to an Apple device.
+
 

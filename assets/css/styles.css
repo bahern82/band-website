@@ -123,6 +123,10 @@ section table{
 .nav-link{ /*footer*/
     padding:.5rem .4rem;
 }
+footer div.col-xs-12.col-sm-6.small{
+    padding-left:0px;
+    padding-right:0px;
+}
 /*-----------------------------------------------index page------------------------------------------------------------*/
 main section.acclaim-section {
     background-color:#99c2ff;
