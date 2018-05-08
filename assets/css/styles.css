@@ -208,6 +208,12 @@ section.top-section.media-section
  section header.mb-5 h1.tour-header.text-center{
     color:white;
 }
+th, td{
+    font-size: .5rem;
+}
+    
+
+
 
 
 
@@ -221,7 +227,8 @@ section.top-section.media-section
 @media (min-width: 768px) { ... } */
 @media(min-width:768px)
 {
-    
+  
+
 }
 
 
