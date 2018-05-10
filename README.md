@@ -75,7 +75,7 @@ Firefox Web developer reponsive design mode was used for testing on the Firefox 
 The following issues were detected:
 
 
-| Device             | Issue                                                         | Level of issue | Action            |
+| Device             | Issue                                                         | Level of issue / Action      |
 | :----------------: |:-------------------------------------------------------------:| :--------------------------:|
 | Apple Ipad Air     | In portrait mode - navbar hover  transition works sparingly   | Non-critical ignore         |    
 | Apple Ipad Mini 2  | In portrait mode - navbar hover  transition works sparingly   | Non-critical ignore         |
@@ -89,7 +89,7 @@ Edge's developer tool's emulation feature was used for testing.
 
 The following issues were detected:
 
-| Device             | Issue                                                         | Level of issue | Action            |
+| Device             | Issue                                                         | Level of issue / Action            |
 | :----------------: |:-------------------------------------------------------------:| :--------------------------:|
 | Various            | In resolutions - 800x480 and 1024x788 - navbar hover color transition doesn't work    | Non-critical ignore         |
 
