@@ -3,7 +3,10 @@ body{
     background-color: #fff;
     
 }
-
+div.container-fluid.col-xs-12.col-xl-8{
+    padding-left: 0;
+    padding-right: 0;
+}
 .outer-sidebar-container{
     
 background: #cc2216 url("../images/tran-monkees-sidebar.png") repeat-y ; /*path changed*/
