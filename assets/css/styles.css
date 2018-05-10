@@ -6,14 +6,10 @@ body{
 
 .outer-sidebar-container{
     
-background: #cc2216 url("/assets/images/tran-monkees-sidebar.png") repeat-y ; 
+background: #cc2216 url("../images/tran-monkees-sidebar.png") repeat-y ; /*path changed*/
   
 }
-/*.sidebar-container-img{
-    margin-top:333px;
-    margin-bottom: 333px;
-    max-height:350px;
-    max-width:80%;}*/
+
  nav.navbar.navbar-expand-md{
     background-color: #66b0ff;
 } 
@@ -134,7 +130,7 @@ main section.acclaim-section {
 }
 
 .preview-audio-section{
-   background: url(/assets/images/music-notes.jpg) no-repeat center center fixed; 
+   background: url(../images/music-notes.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -164,7 +160,7 @@ main section.preview-audio-section header, main section.preview-audio-section he
 /*-----------------------------------------------media page------------------------------------------------------------*/
 section.top-section.media-section
 {
-  background: url(/assets/images/guitar-background-alt.jpg) no-repeat center center fixed; 
+  background: url(../images/guitar-background-alt.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -183,7 +179,7 @@ section.top-section.media-section
 }
 
 #band-members-section{
-    background: url(/assets/images/60s-smaller.png) no-repeat center center fixed; 
+    background: url(../images/60s-smaller.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -196,7 +192,7 @@ section.top-section.media-section
 /*-----------------------------------------------gigs page------------------------------------------------------------*/
 .main-gigs{
    
-  background: url(/assets/images/live-gig.jpg) no-repeat center center fixed; 
+  background: url(../images/live-gig.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
